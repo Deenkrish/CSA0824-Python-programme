@@ -1,0 +1,20 @@
+a=int(input("Enter the Nmber"))
+b=int(input("Enter the Number"))
+c=a
+a=b
+b=c
+print("After swapping: a=",a,"b=",b)
+output:
+Enter the Nmber4
+Enter the Number8
+After swapping: a= 8 b= 4
+
+without temporary variable:
+a=int(input("Enter the 1st number"))
+b=input("Enter the 2nd number")
+a,b=b,a
+print("Ater swapping: a=",a,"b=",b)
+output
+Enter the 1st number8
+Enter the 2nd number0
+Ater swapping: a= 0 b= 8
