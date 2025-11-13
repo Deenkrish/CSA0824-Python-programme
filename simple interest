@@ -1,0 +1,13 @@
+P=float(input("Emnter principle amount:"))
+R=float(input("Enter Rate of interest:"))
+T=float(input("Enter Time:"))
+SI=P*R*T/100
+print("SIMPLE INTEREST",SI)
+
+OUTPUT
+Enter principle amount:150000
+Enter Rate of interest:7.9
+Enter Time:180
+SIMPLE INTEREST 2133000.0
+
+
