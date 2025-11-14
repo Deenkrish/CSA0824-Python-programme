@@ -1,0 +1,13 @@
+dec=10
+print("The decimal value of",dec,"is")
+print(bin(dec),"in binar.")
+print(oct(dec), "in octal.")
+print(hex(dec), "in hexadecimal")
+
+output
+The decimal value of 10 is
+0b1010 in binar.
+0o12 in octal.
+0xa in hexadecimal
+
+=== Code Execution Successful ===
