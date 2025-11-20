@@ -1,0 +1,25 @@
+def rsum(n):
+    if n==0:
+        return 0
+    return(n%10)+rsum(n//10)
+def rpro(n):
+    if n==0:
+        return 1
+    return(n%10)*rpro(n//10)
+n=int(input("Enter a number:"))
+sum_digits=rsum(n)
+pro_digits=rpro(n)
+print("sum of digits:",sum_digits)
+print("product of digits:",pro_digits)
+if sum_digits==pro_digits:
+    print("is a lucky numer")
+else:
+    print("is not a lucky number")
+OUTPUT:
+Enter a number:5
+sum of digits: 5
+product of digits: 5
+is a lucky numer
+
+=== Code Execution Successful ===
+    
